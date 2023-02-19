@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Arkhip';
+  src: url('./fonts/arkhip.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('./fonts/arkhip.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('./fonts/arkhip.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./fonts/arkhip.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('./fonts/arkhip.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./fonts/arkhip.svg#arkhip') format('svg');
+  /* Chrome < 4, Legacy iOS */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+  font-family: "Arkhip", sans-serif;
+  color: rgb(98, 47, 2);
+}
+
+.photos {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.photos img {
+  /* color: white; */
+  /* text-align: center; */
+  width: auto;
+  height: 80vh;
+  border: 10px solid white;
+}
+
+.bgImage {
+  background-image: url("img/img_start.jpg");
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: antiquewhite;
+  font-size: 2rem;
+  align-content: center;
+  border-radius: 9rem;
+}
+
+nav {
+  padding-top: 3rem;
+}
+
+.left {
+  padding-top: 2rem;
+}
+
+.wrapper1 {
+  display: inline-flex;
+  padding-top: 6rem;
+
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.flexWrapper1 {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  color: rgb(98, 47, 2);
+  align-items: center;
+}
+
+.photo {
+  padding: 1vw;
+}
+
+.photo img {
+  width: 250px;
+  height: 250px;
+  border: 5px solid white;
+  outline: 1px solid black;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: bisque;
+}
+
+a:visited {
+  color: bisque;
+}
+
+a:hover {
+  color: #ffd858;
+  text-decoration: underline;
+}
+
+footer {
+  height: 10rem;
+  background-image: url("img/img_end.JPG");
+  background-repeat: no-repeat;
+  background-position: 0% 20%;
+  background-size: cover;
+  color: antiquewhite;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0 0 2rem;
+  font-size: 1.2rem;
+}
+
+.glue {
+  display: flex;
+  min-width: fit-content;
+}
+
+.obvod {
+  text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
+}
+
+p {
+  text-indent: 50px;
+  font-size: 1.2rem;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 2rem;
+  color: rgb(255, 238, 0);
+}
+
+.hobbies {
+  font-size: 1.2rem;
+}
